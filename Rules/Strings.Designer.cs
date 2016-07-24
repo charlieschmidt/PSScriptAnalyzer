@@ -1141,6 +1141,42 @@ namespace Microsoft.Windows.PowerShell.ScriptAnalyzer.BuiltinRules {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Missing Parameter Documentation.
+        /// </summary>
+        internal static string MissingParameterDocumentationCommonName {
+            get {
+                return ResourceManager.GetString("MissingParameterDocumentationCommonName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Check that all parameters have .PARAMETER documentation in the comment help.
+        /// </summary>
+        internal static string MissingParameterDocumentationDescription {
+            get {
+                return ResourceManager.GetString("MissingParameterDocumentationDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Parameter {0} is missing .PARAMETER documentation.
+        /// </summary>
+        internal static string MissingParameterDocumentationError {
+            get {
+                return ResourceManager.GetString("MissingParameterDocumentationError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MissingParameterDocumentation.
+        /// </summary>
+        internal static string MissingParameterDocumentationName {
+            get {
+                return ResourceManager.GetString("MissingParameterDocumentationName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0}{1}.
         /// </summary>
         internal static string NameSpaceFormat {

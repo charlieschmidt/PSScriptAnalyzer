@@ -822,4 +822,16 @@
   <data name="UseToExportFieldsInManifestCorrectionDescription" xml:space="preserve">
     <value>Replace {0} with {1}</value>
   </data>
+  <data name="MissingParameterDocumentationCommonName" xml:space="preserve">
+    <value>Missing Parameter Documentation</value>
+  </data>
+  <data name="MissingParameterDocumentationDescription" xml:space="preserve">
+    <value>Check that all parameters have .PARAMETER documentation in the comment help</value>
+  </data>
+  <data name="MissingParameterDocumentationError" xml:space="preserve">
+    <value>Parameter {0} is missing .PARAMETER documentation</value>
+  </data>
+  <data name="MissingParameterDocumentationName" xml:space="preserve">
+    <value>MissingParameterDocumentation</value>
+  </data>
 </root>
